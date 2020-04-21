@@ -10,8 +10,8 @@ import json
 
 
 def predict(stra):
-	auth = tweepy.OAuthHandler('Ct665pfqVroHRHgW3ma241QkS', 'bJxtEwOA2UKgoL7M14p12CwHpiCCnjykOquzF4aCHQuKMPFUdG')
-	auth.set_access_token('1249374914894675969-nEKHHZyNIQVYJ2xvdgT0SLURs9rlgW', 'yJgVGbHT1WlEOCy8qvHXeovGJpdqJKG1bdNaB8fQAywQ8')
+	auth = tweepy.OAuthHandler('**********************', '************************')
+	auth.set_access_token('*********************************************', '*************************************')
 	api = tweepy.API(auth)
 	tweets = api.search(stra)
 	tweet_id = []
